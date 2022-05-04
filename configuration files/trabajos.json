@@ -1,0 +1,1118 @@
+{"TrabajosLaminacion":
+ [
+  {
+   "toneladaslaminadas": [10, 20, 30],
+    "calidadmaterial": [2,1,2],
+    "cajas":
+    [
+     {"caja": 16,"geometria":"Rodillos  de 8 x 72" ,"tallado": 419},
+     {"caja": 17,"geometria": "Rodillos  de 8 x 72","tallado": 420},
+     {"caja": 18,"geometria": "Rodillos  de 8 x 72","tallado": 357},
+     {"caja": 19,"geometria": "Rodillos  de 6 x 62","tallado": 394}
+    ]
+  },
+  {
+   "toneladaslaminadas": [500, 300, 800],
+    "calidadmaterial": [2,1,2],
+    "cajas":
+    [
+     {"caja": 16,"geometria":"Rodillos  de 8 x 72" ,"tallado": 419},
+     {"caja": 17,"geometria": "Rodillos  de 8 x 72","tallado": 420},
+     {"caja": 18,"geometria": "Rodillos  de 8 x 72","tallado": 357},
+     {"caja": 19,"geometria": "Rodillos  de 6 x 62","tallado": 394}
+     ]
+  },
+  {
+   "toneladaslaminadas": [200, 700, 700],
+    "calidadmaterial": [2,1,2],
+    "cajas":
+    [
+     {"caja": 16,"geometria":"Rodillos  de 8 x 72" ,"tallado": 419},
+     {"caja": 17,"geometria": "Rodillos  de 8 x 72","tallado": 420},
+     {"caja": 18,"geometria": "Rodillos  de 8 x 72","tallado": 357},
+     {"caja": 19,"geometria": "Rodillos  de 6 x 62","tallado": 394}
+     ]
+  }
+ ],
+  "TrabajosLaminacionDuracion":
+ [
+  {
+   "toneladaslaminadas": [10, 20, 30],
+    "calidadmaterial": [2,1,2],
+    "duracion": 480,
+    "cajas":
+    [
+     {"caja": 16,"geometria":"Rodillos  de 8 x 72" ,"tallado": 419},
+     {"caja": 17,"geometria": "Rodillos  de 8 x 72","tallado": 420},
+     {"caja": 18,"geometria": "Rodillos  de 8 x 72","tallado": 357},
+     {"caja": 19,"geometria": "Rodillos  de 6 x 62","tallado": 394}
+    ]
+  },
+  {
+   "toneladaslaminadas": [500, 300, 800],
+    "calidadmaterial": [2,1,2],
+    "duracion": 480,
+    "cajas":
+    [
+     {"caja": 16,"geometria":"Rodillos  de 8 x 72" ,"tallado": 419},
+     {"caja": 17,"geometria": "Rodillos  de 8 x 72","tallado": 420},
+     {"caja": 18,"geometria": "Rodillos  de 8 x 72","tallado": 357},
+     {"caja": 19,"geometria": "Rodillos  de 6 x 62","tallado": 394}
+     ]
+  },
+  {
+   "toneladaslaminadas": [200, 700, 700],
+    "calidadmaterial": [2,1,2],
+    "duracion": 480,
+    "cajas":
+    [
+     {"caja": 16,"geometria":"Rodillos  de 8 x 72" ,"tallado": 419},
+     {"caja": 17,"geometria": "Rodillos  de 8 x 72","tallado": 420},
+     {"caja": 18,"geometria": "Rodillos  de 8 x 72","tallado": 357},
+     {"caja": 19,"geometria": "Rodillos  de 6 x 62","tallado": 394}
+     ]
+  }
+ ],
+  "durezadesgaste": [
+    {"dureza": 1,"desgaste": [0.00031,0.00032,0.00033,0.00031,0.00032,0.00033,0.00031,0.00032,0.00033,0.00031]},
+    {"dureza": 2,"desgaste": [0.00032,0.00033,0.00034,0.00035,0.00036,0.00037,0.00038,0.00039,0.00040,0.00041]},
+    {"dureza": 3,"desgaste": [0.00031,0.00032,0.00033,0.00031,0.00032,0.00033,0.00031,0.00032,0.00033,0.00031]},
+    {"dureza": 4,"desgaste": [0.00032,0.00033,0.00034,0.00035,0.00036,0.00037,0.00038,0.00039,0.00040,0.00041]}
+  ],
+ "restricciones": [
+  [{"caja2":17,"caja1":16,"tipo":"+-","cantidad":2,"factor":1}
+  ,{"caja2":18,"caja1":17,"tipo":"+-","cantidad":2,"factor":1}
+  ,{"caja2":19,"caja1":18,"tipo":"+-","cantidad":50,"factor":1.325984}
+  ],
+
+  [{"caja2":17,"caja1":16,"tipo":"+-","cantidad":2,"factor":1}
+  ,{"caja2":18,"caja1":17,"tipo":"+-","cantidad":2,"factor":1}
+  ,{"caja2":19,"caja1":18,"tipo":"+-","cantidad":50,"factor":1.325984}
+  ],
+
+  [{"caja2":17,"caja1":16,"tipo":"+-","cantidad":2,"factor":1}
+  ,{"caja2":18,"caja1":17,"tipo":"+-","cantidad":2,"factor":1}
+  ,{"caja2":19,"caja1":18,"tipo":"+-","cantidad":50,"factor":1.325984}
+  ]
+ ],
+ "geometria": [{
+			"cod_caja": 16,
+			"geometria": "Rodillos  de 8 x 72",
+			"cod_geometria": 21
+		},
+		{
+			"cod_caja": 17,
+			"geometria": "Rodillos  de 8 x 72",
+			"cod_geometria": 21
+		},
+		{
+			"cod_caja": 18,
+			"geometria": "Rodillos  de 8 x 72",
+			"cod_geometria": 21
+		},
+		{
+			"cod_caja": 19,
+			"geometria": "Rodillos  de 6 x 62",
+			"cod_geometria": 22
+		}
+	],
+  "tallado": [
+   {"num_plano_tallado": 419,"descripcion":"R5","cod_caja": 16},
+   {"num_plano_tallado": 420,"descripcion":"S4","cod_caja": 17},
+   {"num_plano_tallado": 357,"descripcion":"T1","cod_caja": 18},
+   {"num_plano_tallado": 394,"descripcion":"FR14","cod_caja": 19},
+   {"num_plano_tallado": 421,"descripcion":"T","cod_caja": 20},
+   {"num_plano_tallado": 423,"descripcion":"FR11","cod_caja": 21},
+   {"num_plano_tallado": 422,"descripcion":"V","cod_caja": 22},
+   {"num_plano_tallado": 180,"descripcion":"8,5","cod_caja": 23},
+   {"num_plano_tallado": 395,"descripcion":"FR9","cod_caja": 23},
+   {"num_plano_tallado": 360,"descripcion":"X","cod_caja": 24},
+   {"num_plano_tallado": 179,"descripcion":"7","cod_caja": 25},
+   {"num_plano_tallado": 397,"descripcion":"PR6,5","cod_caja": 25},
+   {"num_plano_tallado":181,"descripcion":"A10-10,5","cod_caja":26}
+   ,{"num_plano_tallado":182,"descripcion":"A10RB","cod_caja":26}
+   ,{"num_plano_tallado":183,"descripcion":"A11","cod_caja":26}
+   ,{"num_plano_tallado":184,"descripcion":"A11,5","cod_caja":26}
+   ,{"num_plano_tallado":185,"descripcion":"A12","cod_caja":26}
+   ,{"num_plano_tallado":186,"descripcion":"A13","cod_caja":26}
+   ,{"num_plano_tallado":187,"descripcion":"A13,5","cod_caja":26}
+   ,{"num_plano_tallado":188,"descripcion":"A14","cod_caja":26}
+   ,{"num_plano_tallado":189,"descripcion":"A14,5-16RB","cod_caja":26}
+   ,{"num_plano_tallado":190,"descripcion":"A15","cod_caja":26}
+   ,{"num_plano_tallado":191,"descripcion":"A16,5-17","cod_caja":26}
+   ,{"num_plano_tallado":192,"descripcion":"A17,5","cod_caja":26}
+   ,{"num_plano_tallado":193,"descripcion":"A18-18,5","cod_caja":26}
+   ,{"num_plano_tallado":194,"descripcion":"A19-19,5","cod_caja":26}
+   ,{"num_plano_tallado":195,"descripcion":"A20","cod_caja":26}
+   ,{"num_plano_tallado":196,"descripcion":"A20,5","cod_caja":26}
+   ,{"num_plano_tallado":197,"descripcion":"A21","cod_caja":26}
+   ,{"num_plano_tallado":198,"descripcion":"A21,5","cod_caja":26}
+   ,{"num_plano_tallado":200,"descripcion":"A23,5-24","cod_caja":26}
+   ,{"num_plano_tallado":201,"descripcion":"A24,5-25","cod_caja":26}
+   ,{"num_plano_tallado":202,"descripcion":"A25,5-26-26,5","cod_caja":26}
+   ,{"num_plano_tallado":203,"descripcion":"A5","cod_caja":26}
+   ,{"num_plano_tallado":204,"descripcion":"A5,5","cod_caja":26}
+   ,{"num_plano_tallado":205,"descripcion":"A6","cod_caja":26}
+   ,{"num_plano_tallado":206,"descripcion":"A6,5","cod_caja":26}
+   ,{"num_plano_tallado":207,"descripcion":"A6RB","cod_caja":26}
+   ,{"num_plano_tallado":208,"descripcion":"A7","cod_caja":26}
+   ,{"num_plano_tallado":209,"descripcion":"A7,5","cod_caja":26}
+   ,{"num_plano_tallado":210,"descripcion":"A8","cod_caja":26}
+   ,{"num_plano_tallado":211,"descripcion":"A8,5","cod_caja":26}
+   ,{"num_plano_tallado":212,"descripcion":"A8RB","cod_caja":26}
+   ,{"num_plano_tallado":213,"descripcion":"A9,5","cod_caja":26}
+   ,{"num_plano_tallado":327,"descripcion":"A22","cod_caja":26}
+   ,{"num_plano_tallado":363,"descripcion":"A12,5","cod_caja":26}
+   ,{"num_plano_tallado":377,"descripcion":"A22-22,5-23","cod_caja":26}
+   ,{"num_plano_tallado":388,"descripcion":"A16","cod_caja":26}
+   ,{"num_plano_tallado":398,"descripcion":"A6-ESPECIAL","cod_caja":26}
+   ,{"num_plano_tallado":408,"descripcion":"NA5,5","cod_caja":26}
+   ,{"num_plano_tallado":411,"descripcion":"A10","cod_caja":26}
+   ,{"num_plano_tallado":413,"descripcion":"A10,5","cod_caja":26}
+   ,{"num_plano_tallado":415,"descripcion":"A9","cod_caja":26}
+   ,{"num_plano_tallado":439,"descripcion":"A16 (saliendo C-27)","cod_caja":26}
+   ,{"num_plano_tallado":443,"descripcion":"A-18 (s.27)","cod_caja":26}
+   ,{"num_plano_tallado":445,"descripcion":"A-17(s.27)","cod_caja":26}
+   ,{"num_plano_tallado":447,"descripcion":"A-20(s.27)","cod_caja":26}
+   ,{"num_plano_tallado":449,"descripcion":"A-21(s.27)","cod_caja":26}
+   ,{"num_plano_tallado":451,"descripcion":"A-22(s.27)","cod_caja":26}
+   ,{"num_plano_tallado":455,"descripcion":"A-19(s-27)","cod_caja":26}
+   ,{"num_plano_tallado":459,"descripcion":"A-15(s-27)","cod_caja":26},
+   {"num_plano_tallado":214,"descripcion":"B10-10,5","cod_caja":27}
+   ,{"num_plano_tallado":215,"descripcion":"B10RB400400","cod_caja":27}
+   ,{"num_plano_tallado":216,"descripcion":"B10RB400500","cod_caja":27}
+   ,{"num_plano_tallado":217,"descripcion":"B10RB500500","cod_caja":27}
+   ,{"num_plano_tallado":218,"descripcion":"B11","cod_caja":27}
+   ,{"num_plano_tallado":219,"descripcion":"B11,5","cod_caja":27}
+   ,{"num_plano_tallado":220,"descripcion":"B12","cod_caja":27}
+   ,{"num_plano_tallado":221,"descripcion":"B13","cod_caja":27}
+   ,{"num_plano_tallado":222,"descripcion":"B12RB400400","cod_caja":27}
+   ,{"num_plano_tallado":223,"descripcion":"B12RB400500","cod_caja":27}
+   ,{"num_plano_tallado":224,"descripcion":"B12RB500500","cod_caja":27}
+   ,{"num_plano_tallado":225,"descripcion":"B13,5","cod_caja":27}
+   ,{"num_plano_tallado":226,"descripcion":"B14","cod_caja":27}
+   ,{"num_plano_tallado":227,"descripcion":"B14,5","cod_caja":27}
+   ,{"num_plano_tallado":228,"descripcion":"B15,5","cod_caja":27}
+   ,{"num_plano_tallado":229,"descripcion":"B16,5-17","cod_caja":27}
+   ,{"num_plano_tallado":230,"descripcion":"B16RB400400","cod_caja":27}
+   ,{"num_plano_tallado":231,"descripcion":"B16RB400500","cod_caja":27}
+   ,{"num_plano_tallado":232,"descripcion":"B16RB500500","cod_caja":27}
+   ,{"num_plano_tallado":233,"descripcion":"B17,5","cod_caja":27}
+   ,{"num_plano_tallado":234,"descripcion":"B18-18,5","cod_caja":27}
+   ,{"num_plano_tallado":235,"descripcion":"B19-19,5","cod_caja":27}
+   ,{"num_plano_tallado":236,"descripcion":"B20","cod_caja":27}
+   ,{"num_plano_tallado":237,"descripcion":"B20,5","cod_caja":27}
+   ,{"num_plano_tallado":238,"descripcion":"B21","cod_caja":27}
+   ,{"num_plano_tallado":239,"descripcion":"B21,5","cod_caja":27}
+   ,{"num_plano_tallado":240,"descripcion":"B22-22,5-23","cod_caja":27}
+   ,{"num_plano_tallado":241,"descripcion":"B23,5-24","cod_caja":27}
+   ,{"num_plano_tallado":242,"descripcion":"B24,5-25","cod_caja":27}
+   ,{"num_plano_tallado":243,"descripcion":"B25,5-26-26,5","cod_caja":27}
+   ,{"num_plano_tallado":244,"descripcion":"B5","cod_caja":27}
+   ,{"num_plano_tallado":245,"descripcion":"B5,5","cod_caja":27}
+   ,{"num_plano_tallado":246,"descripcion":"B6","cod_caja":27}
+   ,{"num_plano_tallado":247,"descripcion":"B6,5","cod_caja":27}
+   ,{"num_plano_tallado":248,"descripcion":"B6RB400400","cod_caja":27}
+   ,{"num_plano_tallado":249,"descripcion":"B6RB400500","cod_caja":27}
+   ,{"num_plano_tallado":250,"descripcion":"B6RB500500","cod_caja":27}
+   ,{"num_plano_tallado":251,"descripcion":"B7","cod_caja":27}
+   ,{"num_plano_tallado":252,"descripcion":"B7,5","cod_caja":27}
+   ,{"num_plano_tallado":253,"descripcion":"B8","cod_caja":27}
+   ,{"num_plano_tallado":254,"descripcion":"B8,5","cod_caja":27}
+   ,{"num_plano_tallado":255,"descripcion":"B8RB400400","cod_caja":27}
+   ,{"num_plano_tallado":256,"descripcion":"B8RB400500","cod_caja":27}
+   ,{"num_plano_tallado":257,"descripcion":"B8RB500500","cod_caja":27}
+   ,{"num_plano_tallado":258,"descripcion":"B9,5","cod_caja":27}
+   ,{"num_plano_tallado":283,"descripcion":"B22","cod_caja":27}
+   ,{"num_plano_tallado":362,"descripcion":"B12,5","cod_caja":27}
+   ,{"num_plano_tallado":389,"descripcion":"B15","cod_caja":27}
+   ,{"num_plano_tallado":390,"descripcion":"B16","cod_caja":27}
+   ,{"num_plano_tallado":409,"descripcion":"NB5,5","cod_caja":27}
+   ,{"num_plano_tallado":412,"descripcion":"B10","cod_caja":27}
+   ,{"num_plano_tallado":414,"descripcion":"B10,5","cod_caja":27}
+   ,{"num_plano_tallado":416,"descripcion":"B9","cod_caja":27}
+   ,{"num_plano_tallado":440,"descripcion":"B16 (saliendo C-27)","cod_caja":27}
+   ,{"num_plano_tallado":444,"descripcion":"B-18(s.27)","cod_caja":27}
+   ,{"num_plano_tallado":446,"descripcion":"B-17(s.27)","cod_caja":27}
+   ,{"num_plano_tallado":448,"descripcion":"B-20(s.27)","cod_caja":27}
+   ,{"num_plano_tallado":450,"descripcion":"B-21(s.27)","cod_caja":27}
+   ,{"num_plano_tallado":452,"descripcion":"B-22(s.27)","cod_caja":27}
+   ,{"num_plano_tallado":454,"descripcion":"B-23(s-27)","cod_caja":27}
+   ,{"num_plano_tallado":456,"descripcion":"B-19(s-27)","cod_caja":27}
+   ,{"num_plano_tallado":460,"descripcion":"B-15(s-27)","cod_caja":27},
+   {"num_plano_tallado":259,"descripcion":"C10","cod_caja":28}
+   ,{"num_plano_tallado":260,"descripcion":"C10,5","cod_caja":28}
+   ,{"num_plano_tallado":261,"descripcion":"C11","cod_caja":28}
+   ,{"num_plano_tallado":262,"descripcion":"C11,5","cod_caja":28}
+   ,{"num_plano_tallado":263,"descripcion":"C12","cod_caja":28}
+   ,{"num_plano_tallado":264,"descripcion":"C12,5","cod_caja":28}
+   ,{"num_plano_tallado":265,"descripcion":"C13","cod_caja":28}
+   ,{"num_plano_tallado":266,"descripcion":"C13,5","cod_caja":28}
+   ,{"num_plano_tallado":267,"descripcion":"C14","cod_caja":28}
+   ,{"num_plano_tallado":268,"descripcion":"C14,5","cod_caja":28}
+   ,{"num_plano_tallado":269,"descripcion":"C15","cod_caja":28}
+   ,{"num_plano_tallado":270,"descripcion":"C15,5","cod_caja":28}
+   ,{"num_plano_tallado":271,"descripcion":"C16","cod_caja":28}
+   ,{"num_plano_tallado":272,"descripcion":"C16,5","cod_caja":28}
+   ,{"num_plano_tallado":273,"descripcion":"C17","cod_caja":28}
+   ,{"num_plano_tallado":274,"descripcion":"C17,5","cod_caja":28}
+   ,{"num_plano_tallado":275,"descripcion":"C18","cod_caja":28}
+   ,{"num_plano_tallado":276,"descripcion":"C18,5","cod_caja":28}
+   ,{"num_plano_tallado":277,"descripcion":"C19","cod_caja":28}
+   ,{"num_plano_tallado":278,"descripcion":"C19,5","cod_caja":28}
+   ,{"num_plano_tallado":279,"descripcion":"C20","cod_caja":28}
+   ,{"num_plano_tallado":280,"descripcion":"C20,5","cod_caja":28}
+   ,{"num_plano_tallado":281,"descripcion":"C21","cod_caja":28}
+   ,{"num_plano_tallado":282,"descripcion":"C21,5","cod_caja":28}
+   ,{"num_plano_tallado":284,"descripcion":"C22,5","cod_caja":28}
+   ,{"num_plano_tallado":285,"descripcion":"C23","cod_caja":28}
+   ,{"num_plano_tallado":286,"descripcion":"C23,5","cod_caja":28}
+   ,{"num_plano_tallado":287,"descripcion":"C24","cod_caja":28}
+   ,{"num_plano_tallado":288,"descripcion":"C24,5","cod_caja":28}
+   ,{"num_plano_tallado":289,"descripcion":"C25","cod_caja":28}
+   ,{"num_plano_tallado":290,"descripcion":"C25,5","cod_caja":28}
+   ,{"num_plano_tallado":291,"descripcion":"C26","cod_caja":28}
+   ,{"num_plano_tallado":292,"descripcion":"C26,5","cod_caja":28}
+   ,{"num_plano_tallado":293,"descripcion":"C5","cod_caja":28}
+   ,{"num_plano_tallado":294,"descripcion":"C5,5","cod_caja":28}
+   ,{"num_plano_tallado":295,"descripcion":"C6","cod_caja":28}
+   ,{"num_plano_tallado":296,"descripcion":"C6,5","cod_caja":28}
+   ,{"num_plano_tallado":297,"descripcion":"C7","cod_caja":28}
+   ,{"num_plano_tallado":298,"descripcion":"C7,5","cod_caja":28}
+   ,{"num_plano_tallado":299,"descripcion":"C8","cod_caja":28}
+   ,{"num_plano_tallado":300,"descripcion":"C8,5","cod_caja":28}
+   ,{"num_plano_tallado":301,"descripcion":"C9","cod_caja":28}
+   ,{"num_plano_tallado":302,"descripcion":"C9,5","cod_caja":28}
+   ,{"num_plano_tallado":399,"descripcion":"NC5,5","cod_caja":28}
+   ,{"num_plano_tallado":417,"descripcion":"C22","cod_caja":28},
+   {"num_plano_tallado":303,"descripcion":"D10","cod_caja":29}
+   ,{"num_plano_tallado":304,"descripcion":"D10,5","cod_caja":29}
+   ,{"num_plano_tallado":305,"descripcion":"D11","cod_caja":29}
+   ,{"num_plano_tallado":306,"descripcion":"D11,5","cod_caja":29}
+   ,{"num_plano_tallado":307,"descripcion":"D12","cod_caja":29}
+   ,{"num_plano_tallado":308,"descripcion":"D12,5","cod_caja":29}
+   ,{"num_plano_tallado":309,"descripcion":"D13","cod_caja":29}
+   ,{"num_plano_tallado":310,"descripcion":"D13,5","cod_caja":29}
+   ,{"num_plano_tallado":311,"descripcion":"D14","cod_caja":29}
+   ,{"num_plano_tallado":312,"descripcion":"D14,5","cod_caja":29}
+   ,{"num_plano_tallado":313,"descripcion":"D15","cod_caja":29}
+   ,{"num_plano_tallado":314,"descripcion":"D15,5","cod_caja":29}
+   ,{"num_plano_tallado":315,"descripcion":"D16","cod_caja":29}
+   ,{"num_plano_tallado":316,"descripcion":"D16,5","cod_caja":29}
+   ,{"num_plano_tallado":317,"descripcion":"D17","cod_caja":29}
+   ,{"num_plano_tallado":318,"descripcion":"D17,5","cod_caja":29}
+   ,{"num_plano_tallado":319,"descripcion":"D18","cod_caja":29}
+   ,{"num_plano_tallado":320,"descripcion":"D18,5","cod_caja":29}
+   ,{"num_plano_tallado":321,"descripcion":"D19","cod_caja":29}
+   ,{"num_plano_tallado":322,"descripcion":"D19,5","cod_caja":29}
+   ,{"num_plano_tallado":323,"descripcion":"D20","cod_caja":29}
+   ,{"num_plano_tallado":324,"descripcion":"D20,5","cod_caja":29}
+   ,{"num_plano_tallado":325,"descripcion":"D21","cod_caja":29}
+   ,{"num_plano_tallado":326,"descripcion":"D21,5","cod_caja":29}
+   ,{"num_plano_tallado":328,"descripcion":"D22,5","cod_caja":29}
+   ,{"num_plano_tallado":329,"descripcion":"D23","cod_caja":29}
+   ,{"num_plano_tallado":330,"descripcion":"D23,5","cod_caja":29}
+   ,{"num_plano_tallado":331,"descripcion":"D24","cod_caja":29}
+   ,{"num_plano_tallado":332,"descripcion":"D24,5","cod_caja":29}
+   ,{"num_plano_tallado":333,"descripcion":"D25","cod_caja":29}
+   ,{"num_plano_tallado":334,"descripcion":"D25,5","cod_caja":29}
+   ,{"num_plano_tallado":335,"descripcion":"D26","cod_caja":29}
+   ,{"num_plano_tallado":336,"descripcion":"D26,5","cod_caja":29}
+   ,{"num_plano_tallado":337,"descripcion":"D5","cod_caja":29}
+   ,{"num_plano_tallado":338,"descripcion":"D5,5","cod_caja":29}
+   ,{"num_plano_tallado":339,"descripcion":"D6","cod_caja":29}
+   ,{"num_plano_tallado":340,"descripcion":"D6,5","cod_caja":29}
+   ,{"num_plano_tallado":341,"descripcion":"D7","cod_caja":29}
+   ,{"num_plano_tallado":342,"descripcion":"D7,5","cod_caja":29}
+   ,{"num_plano_tallado":343,"descripcion":"D8","cod_caja":29}
+   ,{"num_plano_tallado":344,"descripcion":"D8,5","cod_caja":29}
+   ,{"num_plano_tallado":345,"descripcion":"D9","cod_caja":29}
+   ,{"num_plano_tallado":346,"descripcion":"D9,5","cod_caja":29}
+   ,{"num_plano_tallado":400,"descripcion":"ND5,5","cod_caja":29}
+   ,{"num_plano_tallado":418,"descripcion":"D22","cod_caja":29},
+   {"num_plano_tallado": 1,"descripcion":"Sin Perfil","cod_caja": 0}
+  ],
+ "tablas": [{
+			"num_plano_bruto": 35,
+			"tabla": 104,
+			"nombre": "anillos C-11 carburo"
+		}
+
+		, {
+			"num_plano_bruto": 34,
+			"tabla": 44,
+			"nombre": "Rodillos de 8x44 bloque prueba"
+		}
+
+		, {
+			"num_plano_bruto": 36,
+			"tabla": 650,
+			"nombre": "Alambron 12\" , Caja 10 Carburo"
+		}
+
+		, {
+			"num_plano_bruto": 32,
+			"tabla": 104,
+			"nombre": "Zuncho C11"
+		}
+
+		, {
+			"num_plano_bruto": 16,
+			"tabla": 850,
+			"nombre": "Alambron 16\", Cajes 1 a 4"
+		}
+
+		, {
+			"num_plano_bruto": 17,
+			"tabla": 850,
+			"nombre": "Alambron 14\", Cajes 5 a 7"
+		}
+
+		, {
+			"num_plano_bruto": 18,
+			"tabla": 650,
+			"nombre": "Alambron 12\", Cajes 8 a 11"
+		}
+
+		, {
+			"num_plano_bruto": 19,
+			"tabla": 98,
+			"nombre": "Caja REYNOLS; ancho 98"
+		}
+
+		, {
+			"num_plano_bruto": 20,
+			"tabla": 80,
+			"nombre": "Caja REYNOLS; ancho 80"
+		}
+
+		, {
+			"num_plano_bruto": 21,
+			"tabla": 72,
+			"nombre": "Rodillos  de 8 x 72"
+		}
+
+		, {
+			"num_plano_bruto": 22,
+			"tabla": 62,
+			"nombre": "Rodillos  de 6 x 62"
+		}
+
+		, {
+			"num_plano_bruto": 23,
+			"tabla": 32,
+			"nombre": "Rodillos  de 6 x 32"
+		}
+
+		, {
+			"num_plano_bruto": 24,
+			"tabla": 59,
+			"nombre": "Mini Bloque   8 x 59"
+		}
+
+		, {
+			"num_plano_bruto": 25,
+			"tabla": 71.7,
+			"nombre": "Mini Bloque   8 x 71,7"
+		}
+
+		, {
+			"num_plano_bruto": 26,
+			"tabla": 44,
+			"nombre": "Mini Bloque   6 x 44"
+		}
+
+		, {
+			"num_plano_bruto": 27,
+			"tabla": 57,
+			"nombre": "Mini Bloque   6 x 57"
+		}
+
+		, {
+			"num_plano_bruto": 28,
+			"tabla": 70,
+			"nombre": "Mini Bloque   6 x 70"
+		}
+
+		, {
+			"num_plano_bruto": 29,
+			"tabla": 32,
+			"nombre": "Mini Bloque   6 x 32"
+		}
+
+		, {
+			"num_plano_bruto": 30,
+			"tabla": 650,
+			"nombre": "Alambron 12\" , Caja 11 Carburo "
+		}
+
+		, {
+			"num_plano_bruto": 14,
+			"tabla": 900,
+			"nombre": "Alambron, Cajes AH-BH"
+		}
+
+		, {
+			"num_plano_bruto": 15,
+			"tabla": 900,
+			"nombre": "Alambron, Caja  CV"
+		}
+
+		, {
+			"num_plano_bruto": 31,
+			"tabla": 72,
+			"nombre": "Rodillo tractor 8\" x72"
+		}
+
+		, {
+			"num_plano_bruto": 33,
+			"tabla": 125,
+			"nombre": "Zuncho C10"
+		}
+
+		, {
+			"num_plano_bruto": 37,
+			"tabla": 650,
+			"nombre": "Alambron 12\".Caja 8 y 9 HSS"
+		}
+
+	],
+ "calidades":[
+{"cod_calidad":1,"calidad":"K H R 91"}
+
+,{"cod_calidad":2,"calidad":"42 S G G Centrifuga"}
+
+,{"cod_calidad":3,"calidad":"A C"}
+
+,{"cod_calidad":4,"calidad":"A G 2"}
+
+,{"cod_calidad":5,"calidad":"A G 3"}
+
+,{"cod_calidad":6,"calidad":"A L D"}
+
+,{"cod_calidad":7,"calidad":"A L G"}
+
+,{"cod_calidad":8,"calidad":"Acero Doble A S T 60"}
+
+,{"cod_calidad":9,"calidad":"Acero Grafitado"}
+
+,{"cod_calidad":10,"calidad":"Acero K M H"}
+
+,{"cod_calidad":11,"calidad":"Acero Rapido"}
+
+,{"cod_calidad":12,"calidad":"Acicular S G"}
+
+,{"cod_calidad":13,"calidad":"Adamite Steel G T"}
+
+,{"cod_calidad":14,"calidad":"Aldafak B K"}
+
+,{"cod_calidad":15,"calidad":"Alloy Cast Steel"}
+
+,{"cod_calidad":16,"calidad":"B 2"}
+
+,{"cod_calidad":17,"calidad":"B I C"}
+
+,{"cod_calidad":18,"calidad":"B I D"}
+
+,{"cod_calidad":19,"calidad":"B II B 5"}
+
+,{"cod_calidad":20,"calidad":"B II C S"}
+
+,{"cod_calidad":21,"calidad":"B II D"}
+
+,{"cod_calidad":22,"calidad":"B III 90 KB"}
+
+,{"cod_calidad":23,"calidad":"B V"}
+
+,{"cod_calidad":24,"calidad":"Bajo en Carbono"}
+
+,{"cod_calidad":25,"calidad":"C 20 C"}
+
+,{"cod_calidad":26,"calidad":"C 30 P"}
+
+,{"cod_calidad":27,"calidad":"C E 112"}
+
+,{"cod_calidad":28,"calidad":"C E 115"}
+
+,{"cod_calidad":29,"calidad":"C E 79"}
+
+,{"cod_calidad":30,"calidad":"C E 79 R"}
+
+,{"cod_calidad":31,"calidad":"C N A 75"}
+
+,{"cod_calidad":32,"calidad":"C R 95"}
+
+,{"cod_calidad":33,"calidad":"C T 65"}
+
+,{"cod_calidad":34,"calidad":"C T 95"}
+
+,{"cod_calidad":35,"calidad":"Carburo C 25 P"}
+
+,{"cod_calidad":36,"calidad":"Carburo C 30 P"}
+
+,{"cod_calidad":37,"calidad":"Carburo C E 115"}
+
+,{"cod_calidad":38,"calidad":"Carburo C R 95"}
+
+,{"cod_calidad":39,"calidad":"Carburo H 30 P"}
+
+,{"cod_calidad":40,"calidad":"Carburo R C V 6"}
+
+,{"cod_calidad":41,"calidad":"Carburo S M 56"}
+
+,{"cod_calidad":42,"calidad":"Carburo S M 69 S"}
+
+,{"cod_calidad":43,"calidad":"CERAMETAL 114"}
+
+,{"cod_calidad":44,"calidad":"CERAMETAL 51"}
+
+,{"cod_calidad":45,"calidad":"D C 1"}
+
+,{"cod_calidad":46,"calidad":"D S 1 CU.MO."}
+
+,{"cod_calidad":47,"calidad":"D S 2"}
+
+,{"cod_calidad":48,"calidad":"D S 2 CR.NI.MO."}
+
+,{"cod_calidad":49,"calidad":"D S 2 CU.MO."}
+
+,{"cod_calidad":50,"calidad":"D S W 25"}
+
+,{"cod_calidad":51,"calidad":"D S W 35"}
+
+,{"cod_calidad":52,"calidad":"D U"}
+
+,{"cod_calidad":53,"calidad":"D U S"}
+
+,{"cod_calidad":54,"calidad":"F A L 1"}
+
+,{"cod_calidad":55,"calidad":"F N PERLITICA CENT"}
+
+,{"cod_calidad":56,"calidad":"F. NODULAR CENTRI."}
+
+,{"cod_calidad":57,"calidad":"F.N. PERL. S G 15"}
+
+,{"cod_calidad":58,"calidad":"FENIX A"}
+
+,{"cod_calidad":59,"calidad":"FUND. IND. PERLITICA"}
+
+,{"cod_calidad":60,"calidad":"FUNDICION ACICULAR"}
+
+,{"cod_calidad":61,"calidad":"FUNDICION ALTO CROMO"}
+
+,{"cod_calidad":62,"calidad":"G B 350"}
+
+,{"cod_calidad":63,"calidad":"G B 350 S"}
+
+,{"cod_calidad":64,"calidad":"G B 450"}
+
+,{"cod_calidad":65,"calidad":"G B 60"}
+
+,{"cod_calidad":66,"calidad":"G B 70"}
+
+,{"cod_calidad":67,"calidad":"G P 350"}
+
+,{"cod_calidad":68,"calidad":"G P 650"}
+
+,{"cod_calidad":69,"calidad":"G P S 650"}
+
+,{"cod_calidad":70,"calidad":"H 13 C"}
+
+,{"cod_calidad":71,"calidad":"H 15 C"}
+
+,{"cod_calidad":72,"calidad":"INDEF. 42 S GG"}
+
+,{"cod_calidad":73,"calidad":"K G 50"}
+
+,{"cod_calidad":74,"calidad":"K G 55"}
+
+,{"cod_calidad":75,"calidad":"K G E 45"}
+
+,{"cod_calidad":76,"calidad":"K G E 55"}
+
+,{"cod_calidad":77,"calidad":"K I 70 D"}
+
+,{"cod_calidad":78,"calidad":"K N P 55"}
+
+,{"cod_calidad":79,"calidad":"K N S 65"}
+
+,{"cod_calidad":80,"calidad":"L C 718"}
+
+,{"cod_calidad":81,"calidad":"M N 1"}
+
+,{"cod_calidad":82,"calidad":"M N 2"}
+
+,{"cod_calidad":83,"calidad":"M N 3"}
+
+,{"cod_calidad":84,"calidad":"M N 4"}
+
+,{"cod_calidad":85,"calidad":"M N 5"}
+
+,{"cod_calidad":86,"calidad":"M N 6"}
+
+,{"cod_calidad":87,"calidad":"N B 2"}
+
+,{"cod_calidad":88,"calidad":"N C 1"}
+
+,{"cod_calidad":89,"calidad":"N C 2"}
+
+,{"cod_calidad":90,"calidad":"N C 3"}
+
+,{"cod_calidad":91,"calidad":"N D 3"}
+
+,{"cod_calidad":92,"calidad":"P A L 2"}
+
+,{"cod_calidad":93,"calidad":"P A L T"}
+
+,{"cod_calidad":94,"calidad":"P B L T"}
+
+,{"cod_calidad":95,"calidad":"PERLITICA D U"}
+
+,{"cod_calidad":96,"calidad":"PIROCO A"}
+
+,{"cod_calidad":97,"calidad":"PIROCO B"}
+
+,{"cod_calidad":98,"calidad":"R C V 3"}
+
+,{"cod_calidad":99,"calidad":"R C V 4"}
+
+,{"cod_calidad":100,"calidad":"R C V 6"}
+
+,{"cod_calidad":101,"calidad":"S A S W"}
+
+,{"cod_calidad":102,"calidad":"S G 10"}
+
+,{"cod_calidad":103,"calidad":"S G 15"}
+
+,{"cod_calidad":104,"calidad":"S G 22"}
+
+,{"cod_calidad":105,"calidad":"S G 42 S S G"}
+
+,{"cod_calidad":106,"calidad":"S G A"}
+
+,{"cod_calidad":107,"calidad":"S G P"}
+
+,{"cod_calidad":108,"calidad":"S G P 67"}
+
+,{"cod_calidad":109,"calidad":"S M 59"}
+
+,{"cod_calidad":110,"calidad":"S M 59 (15% CO.NI.)"}
+
+,{"cod_calidad":111,"calidad":"S M 60"}
+
+,{"cod_calidad":112,"calidad":"S M 60 (20% CO)"}
+
+,{"cod_calidad":113,"calidad":"S M 63 (10% CO.NI.)"}
+
+,{"cod_calidad":114,"calidad":"S M 75"}
+
+,{"cod_calidad":115,"calidad":"S M 78"}
+
+,{"cod_calidad":116,"calidad":"STEEL BASE"}
+
+,{"cod_calidad":117,"calidad":"STEEL BASE FENIX A"}
+
+,{"cod_calidad":118,"calidad":"T I 25"}
+
+,{"cod_calidad":119,"calidad":"T N C FUND.TEMP.AI"}
+
+,{"cod_calidad":120,"calidad":"U S 1 CU.MO."}
+
+,{"cod_calidad":121,"calidad":"U S 2 CU.MO."}
+
+,{"cod_calidad":122,"calidad":"URTIX 65 C"}
+
+,{"cod_calidad":123,"calidad":"V G 50 S"}
+
+,{"cod_calidad":124,"calidad":"V G 627"}
+
+,{"cod_calidad":125,"calidad":"V G 505"}
+
+,{"cod_calidad":126,"calidad":"X T M C 103 T Q A"}
+
+,{"cod_calidad":127,"calidad":"X T M C 103 T Q B"}
+
+,{"cod_calidad":128,"calidad":"Carburo R C V 5"}
+
+,{"cod_calidad":129,"calidad":"Carburo C 30 T"}
+
+,{"cod_calidad":130,"calidad":"F N 5"}
+
+,{"cod_calidad":131,"calidad":"C 30 T"}
+
+,{"cod_calidad":132,"calidad":"C 15 C"}
+
+,{"cod_calidad":133,"calidad":"G P 750"}
+
+,{"cod_calidad":134,"calidad":"H 6 T"}
+
+,{"cod_calidad":135,"calidad":"450 VZT"}
+
+,{"cod_calidad":136,"calidad":"C N A"}
+
+,{"cod_calidad":137,"calidad":"O T Q B"}
+
+,{"cod_calidad":138,"calidad":"O T Q A"}
+
+,{"cod_calidad":139,"calidad":"SHEFFIELD"}
+
+,{"cod_calidad":140,"calidad":"A S III"}
+
+,{"cod_calidad":141,"calidad":"G S C 150"}
+
+,{"cod_calidad":142,"calidad":"F N 4"}
+
+,{"cod_calidad":143,"calidad":"F N 6"}
+
+,{"cod_calidad":144,"calidad":"C E 260"}
+
+,{"cod_calidad":145,"calidad":"Carburo C E 260"}
+
+,{"cod_calidad":146,"calidad":"T E"}
+
+,{"cod_calidad":147,"calidad":"F N 1"}
+
+,{"cod_calidad":148,"calidad":"F.A.D.C.C.SA-560-C-S"}
+
+,{"cod_calidad":149,"calidad":"F.N.P. SP-520"}
+
+,{"cod_calidad":150,"calidad":"C T I 73-N"}
+
+,{"cod_calidad":151,"calidad":"B IV 70"}
+
+,{"cod_calidad":152,"calidad":"URTIX-65 C T.I. CEN"}
+
+,{"cod_calidad":153,"calidad":"URTIX 650"}
+
+,{"cod_calidad":154,"calidad":"TEMPLE INDEFINIDO"}
+
+,{"cod_calidad":155,"calidad":"T.I. DOBLE COLADA"}
+
+,{"cod_calidad":156,"calidad":"INDEBOL-Q"}
+
+,{"cod_calidad":157,"calidad":"AS-II-80 X"}
+
+,{"cod_calidad":158,"calidad":"CENTRIF. ALTO EN CR"}
+
+,{"cod_calidad":159,"calidad":"K G E 50"}
+
+,{"cod_calidad":160,"calidad":"Carburo C P M REX M4"}
+
+,{"cod_calidad":161,"calidad":"G S C 180"}
+
+,{"cod_calidad":162,"calidad":"N B 4"}
+
+,{"cod_calidad":163,"calidad":"PERLITICA KNP 60"}
+
+,{"cod_calidad":164,"calidad":"T.I.D.C.URTIX-65 C"}
+
+,{"cod_calidad":165,"calidad":"K N P 60"}
+
+,{"cod_calidad":166,"calidad":"S M 65"}
+
+,{"cod_calidad":167,"calidad":"Carburo"}
+
+,{"cod_calidad":168,"calidad":"C E 65"}
+
+,{"cod_calidad":169,"calidad":"Carburo G A 5624"}
+
+,{"cod_calidad":170,"calidad":"Carburo G A 5365"}
+
+,{"cod_calidad":171,"calidad":"G A 5265"}
+
+,{"cod_calidad":172,"calidad":"G A 5328"}
+
+,{"cod_calidad":173,"calidad":"G A 5315"}
+
+,{"cod_calidad":174,"calidad":"Carburo G A 5355"}
+
+,{"cod_calidad":175,"calidad":"S M 61 N"}
+
+,{"cod_calidad":176,"calidad":"S M 62"}
+
+,{"cod_calidad":177,"calidad":"G A 5240"}
+
+,{"cod_calidad":180,"calidad":"A G M 2"}
+
+,{"cod_calidad":181,"calidad":"K H R 31"}
+
+,{"cod_calidad":182,"calidad":"K H R 30"}
+
+,{"cod_calidad":183,"calidad":"G S C 200"}
+
+,{"cod_calidad":184,"calidad":"C P M 9V DDU"}
+
+,{"cod_calidad":185,"calidad":"D D U"}
+
+,{"cod_calidad":186,"calidad":"PERLITICA N C 1"}
+
+,{"cod_calidad":187,"calidad":"G A 5230"}
+
+,{"cod_calidad":188,"calidad":"Carburo G A 5265"}
+
+,{"cod_calidad":189,"calidad":"G A 5250"}
+
+,{"cod_calidad":190,"calidad":"G A 5340"}
+
+,{"cod_calidad":191,"calidad":"A G M 3"}
+
+,{"cod_calidad":192,"calidad":"P B L T M"}
+
+,{"cod_calidad":193,"calidad":"Carburo S M 62"}
+
+,{"cod_calidad":194,"calidad":"VIS Carbide Enhanced"}
+
+,{"cod_calidad":195,"calidad":"C T C 60 M"}
+
+,{"cod_calidad":196,"calidad":"Carburo F N 6"}
+
+,{"cod_calidad":197,"calidad":"STG 30-400"}
+
+,{"cod_calidad":198,"calidad":"F N 3"}
+
+,{"cod_calidad":199,"calidad":"C T C 30 A"}
+
+,{"cod_calidad":200,"calidad":"C T C 40 A"}
+
+,{"cod_calidad":201,"calidad":"Carburo C T C 60 A"}
+
+,{"cod_calidad":202,"calidad":"G T 60 S"}
+
+,{"cod_calidad":203,"calidad":"C T C 30 M"}
+
+,{"cod_calidad":204,"calidad":"Carburo K H R 90"}
+
+,{"cod_calidad":205,"calidad":"K H R 40"}
+
+,{"cod_calidad":206,"calidad":"URTIX 75 C"}
+
+,{"cod_calidad":207,"calidad":"F 127"}
+
+,{"cod_calidad":208,"calidad":"G S C 180(W)"}
+
+,{"cod_calidad":209,"calidad":"GTI 65 S"}
+
+,{"cod_calidad":210,"calidad":"GERDAU-NOD"}
+
+,{"cod_calidad":211,"calidad":"C T C 60 A"}
+
+,{"cod_calidad":212,"calidad":"DU NODULAR PERLITICA"}
+
+,{"cod_calidad":213,"calidad":"TE NODULAR PERLITICA"}
+
+,{"cod_calidad":214,"calidad":"C T C 50 A"}
+
+,{"cod_calidad":215,"calidad":"F M D CARBIDE"}
+
+,{"cod_calidad":216,"calidad":"Carburo C T C 60 M"}
+
+,{"cod_calidad":217,"calidad":"SG-P 55\/60 SH"}
+
+,{"cod_calidad":218,"calidad":"F M D CARBIDE 17,5%C"}
+
+,{"cod_calidad":219,"calidad":"C T C 35A"}
+
+,{"cod_calidad":220,"calidad":"K H R 10"}
+
+,{"cod_calidad":221,"calidad":"K H R 90"}
+
+,{"cod_calidad":222,"calidad":"C T C 50 M"}
+
+,{"cod_calidad":223,"calidad":"C T C 40 M"}
+
+,{"cod_calidad":224,"calidad":"S M 61"}
+
+,{"cod_calidad":225,"calidad":"R C V 5"}
+
+,{"cod_calidad":226,"calidad":"AC101200"}
+
+,{"cod_calidad":227,"calidad":"G A 5350"}
+
+,{"cod_calidad":228,"calidad":"G A 7365"}
+
+,{"cod_calidad":229,"calidad":"C N 6"}
+
+,{"cod_calidad":230,"calidad":"YGR30"}
+
+,{"cod_calidad":231,"calidad":"YGR45"}
+
+,{"cod_calidad":232,"calidad":"C N 4"}
+
+,{"cod_calidad":233,"calidad":"C N 3"}
+
+,{"cod_calidad":234,"calidad":"C T E 30 M"}
+
+,{"cod_calidad":235,"calidad":"V N 50"}
+
+,{"cod_calidad":236,"calidad":"C T E 40 M"}
+
+,{"cod_calidad":237,"calidad":"VN 40"}
+
+,{"cod_calidad":238,"calidad":"VN 77"}
+
+,{"cod_calidad":239,"calidad":"CTE 60 M"}
+
+,{"cod_calidad":240,"calidad":"KHR75"}
+
+,{"cod_calidad":241,"calidad":"SM70"}
+
+,{"cod_calidad":242,"calidad":"CTE 50 M"}
+
+,{"cod_calidad":243,"calidad":"C 25 C"}
+
+,{"cod_calidad":244,"calidad":"C 10 C"}
+
+,{"cod_calidad":245,"calidad":"T 30 M"}
+
+,{"cod_calidad":246,"calidad":"D G 9 A"}
+
+,{"cod_calidad":247,"calidad":"D G 6"}
+
+,{"cod_calidad":248,"calidad":"D G 2 A"}
+
+,{"cod_calidad":249,"calidad":"T 25 H"}
+
+,{"cod_calidad":250,"calidad":"PCR15"}
+
+,{"cod_calidad":251,"calidad":"PCR20"}
+
+,{"cod_calidad":252,"calidad":"YGR55"}
+
+,{"cod_calidad":253,"calidad":"GHG CrNi 400"}
+
+,{"cod_calidad":254,"calidad":"GHG CrNi 460"}
+
+,{"cod_calidad":255,"calidad":"GHG CrNiMo470"}
+
+,{"cod_calidad":256,"calidad":"PL15R"}
+
+,{"cod_calidad":257,"calidad":"R\/T-L SG Pearlitic"}
+
+,{"cod_calidad":258,"calidad":"R\/T-L SG Acicular"}
+
+,{"cod_calidad":259,"calidad":"R\/T-L SG HSS"}
+
+,{"cod_calidad":260,"calidad":"D S 2 MO"}
+
+,{"cod_calidad":261,"calidad":"Acicular Prime II"}
+
+,{"cod_calidad":262,"calidad":"S M X 70"}
+
+],
+  "costes": [{
+				"COD_CALIDAD": 25,
+				"costemm3": 0.0019
+			}, {
+				"COD_CALIDAD": 26,
+				"costemm3": 0.0018
+			}, {
+				"COD_CALIDAD": 32,
+				"costemm3": 0.0018
+			}, {
+				"COD_CALIDAD": 111,
+				"costemm3": 0.0018
+			}, {
+				"COD_CALIDAD": 130,
+				"costemm3": 0.0016
+			}, {
+				"COD_CALIDAD": 131,
+				"costemm3": 0.0027
+			}, {
+				"COD_CALIDAD": 175,
+				"costemm3": 0.002
+			}, {
+				"COD_CALIDAD": 176,
+				"costemm3": 0.002
+			}, {
+				"COD_CALIDAD": 177,
+				"costemm3": 0.0024
+			}, {
+				"COD_CALIDAD": 239,
+				"costemm3": 0.0032
+			}, {
+				"COD_CALIDAD": 83,
+				"costemm3": 0.0016
+			}, {
+				"COD_CALIDAD": 100,
+				"costemm3": 0.0034
+			}, {
+				"COD_CALIDAD": 112,
+				"costemm3": 0.0016
+			} , {
+				"COD_CALIDAD": 143,
+				"costemm3": 0.0019
+			}, {
+				"COD_CALIDAD": 144,
+				"costemm3": 0.0021
+			}, {
+				"COD_CALIDAD": 181,
+				"costemm3": 0.002
+			}, {
+				"COD_CALIDAD": 195,
+				"costemm3": 0.0031
+			}, {
+				"COD_CALIDAD": 209,
+				"costemm3": 0.0024
+			}, {
+				"COD_CALIDAD": 246,
+				"costemm3": 0.0023
+			},{
+				"COD_CALIDAD": 28,
+				"costemm3": 0.0027
+			}, {
+				"COD_CALIDAD": 29,
+				"costemm3": 0.0023
+			}, {
+				"COD_CALIDAD": 30,
+				"costemm3": 0.0024
+			}, {
+				"COD_CALIDAD": 33,
+				"costemm3": 0.0025
+			}, {
+				"COD_CALIDAD": 81,
+				"costemm3": 0.0025
+			}, {
+				"COD_CALIDAD": 98,
+				"costemm3": 0.0021
+			}, {
+				"COD_CALIDAD": 109,
+				"costemm3": 0.0019
+			}, {
+				"COD_CALIDAD": 110,
+				"costemm3": 0.0018
+			}, {
+				"COD_CALIDAD": 115,
+				"costemm3": 0.002
+			}, {
+				"COD_CALIDAD": 132,
+				"costemm3": 0.0031
+			}, {
+				"COD_CALIDAD": 147,
+				"costemm3": 0.0033
+			}, {
+				"COD_CALIDAD": 166,
+				"costemm3": 0.0025
+			}, {
+				"COD_CALIDAD": 182,
+				"costemm3": 0.0021
+			}, {
+				"COD_CALIDAD": 187,
+				"costemm3": 0.0033
+			}, {
+				"COD_CALIDAD": 199,
+				"costemm3": 0.0031
+			}, {
+				"COD_CALIDAD": 232,
+				"costemm3": 0.0035
+			}, {
+				"COD_CALIDAD": 234,
+				"costemm3": 0.003
+			}, {
+				"COD_CALIDAD": 248,
+				"costemm3": 0.0025
+			}, {
+				"COD_CALIDAD": 0,
+				"costemm3": 0.0025
+			}
+	]
+}
